@@ -57,7 +57,8 @@ This project was based on a **Figma mockup design** provided by Scrimba, allowin
 
 ### 📸 Project Preview (Figma Mockup)
 
-![Hometown Homepage Design](./image.png)
+![Homepage Mockup](https://github.com/user-attachments/assets/0d20a129-052d-4628-a9a2-8f320c169a08)
+
 
 ---
 
