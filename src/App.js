@@ -1,5 +1,11 @@
+import Hero from "./components/Hero";
+
 function App() {
-  return <h1>Hometown Homepage</h1>;
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
 }
 
 export default App;
