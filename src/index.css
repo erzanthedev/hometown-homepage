@@ -3,6 +3,8 @@ body {
   text-align: center;
 }
 
+/* Hero Section */
+
 #hero {
   background-image: url(./images/torshov.jpg);
   background-size: cover;
@@ -41,4 +43,41 @@ body {
   #hero {
     background-position: center;
   }
+}
+
+/* Activities Section */
+
+#activities {
+  background: #f1faee;
+  padding: 30px 34px;
+}
+
+#activities-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 54px;
+  color: #1d3557;
+}
+
+.activity-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.activity-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.activity-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1d3557;
+}
+
+.activity-text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #1d3557;
 }
