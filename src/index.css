@@ -71,6 +71,11 @@ body {
   border-radius: 50%;
 }
 
+.activity-img:hover {
+  box-shadow: 0 0 9px 2px #1d3557;
+  cursor: pointer;
+}
+
 .activity-title {
   font-weight: 700;
   font-size: 1rem;
@@ -122,6 +127,11 @@ body {
 .guide-card-img {
   width: 180px;
   border-radius: 10px;
+}
+
+.guide-card:hover {
+  box-shadow: 0 0 9px 2px #1d3557;
+  cursor: pointer;
 }
 
 .guide-card-title,
