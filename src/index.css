@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: Arial;
 }
 
 /* Hero Section */
@@ -18,13 +19,13 @@ body {
 }
 
 #hero-title {
-  font-size: 32px;
+  font-size: 2rem;
   background: #1d3557;
   padding: 3px 12px;
 }
 
 #hero-text {
-  font-size: 18.72px;
+  font-size: 1.17rem;
   background: #457b9d;
   padding: 5px 29px;
   max-width: 412px;
@@ -54,7 +55,7 @@ body {
 
 #activities-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 54px;
   color: #1d3557;
 }
@@ -73,11 +74,58 @@ body {
 .activity-title {
   font-weight: 700;
   font-size: 1rem;
-  color: #1d3557;
 }
 
 .activity-text {
   font-weight: 400;
   font-size: 1rem;
+}
+
+.activity-title,
+.activity-text {
+  color: #1d3557;
+}
+
+/* Guide Section */
+.guide {
+  display: flex;
+  justify-content: center;
+  padding: 50px 160px;
+}
+
+.guide-card {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background: #a8dadc;
+  border-bottom: 10px solid #1d3557;
+  border-radius: 10px;
+  padding: 23px 13px;
+  max-width: 400px;
+}
+
+.guide-card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.guide-card-quote {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.guide-card-name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.guide-card-img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.guide-card-title,
+.guide-card-quote,
+.guide-card-name {
   color: #1d3557;
 }

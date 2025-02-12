@@ -20,11 +20,7 @@ const Activities = () => {
         </div>
 
         <div className="activity">
-          <img
-            className="activity-img"
-            src={park}
-            alt="A red building with 4 white pillars "
-          />
+          <img className="activity-img" src={park} alt="a local park" />
           <h3 className="activity-title">Go for a piknic in the local park</h3>
           <p className="activity-text">
             The Torshov Park is perfect for piknic, getting some tan, or just
@@ -36,7 +32,7 @@ const Activities = () => {
           <img
             className="activity-img"
             src={sports}
-            alt="A red building with 4 white pillars "
+            alt="a round yellow and navy stripe ball on the sand"
           />
           <h3 className="activity-title">Play sports at the Lilleborg field</h3>
           <p className="activity-text">
